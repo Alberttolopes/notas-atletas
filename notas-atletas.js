@@ -21,7 +21,7 @@ function calcularMediaValida(objAtletas) {
     for (let i = 0; i < objAtletas.length; i++) {
         let nomeAtleta = objAtletas[i].nome;
         
-        let notasObtidas = objAtletas[i].notas.slice().sort().join(",");
+        let notasObtidas = objAtletas[i].notas.slice().sort().join(", ");
         
         let notasOrdenadas = objAtletas[i].notas.slice().sort(function(a, b) {
             return a - b;
