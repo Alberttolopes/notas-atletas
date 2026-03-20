@@ -1,3 +1,5 @@
+console.log("Notas dos Atletas");
+
 let atletas = [
  {
    nome: "Cesar Abascal",
